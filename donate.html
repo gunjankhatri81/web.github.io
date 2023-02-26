@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate now</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style1.css">
+</head>
+<body>
+    <section class="book" id="book">
+
+        <h1 class="heading"> <span>Donate </span> Now</h1>    
+        <p class="do">
+Your support is needed to address fundamental human needs and advance dignity, peace, and prosperity.
+        </p>
+        <div class="row">
+    
+            <div class="image">
+                <img src="image/6660.jpg" alt="">
+            </div>
+    
+            <form action="" onsubmit="sendEmail(); reset(); return false;">
+                <h3>contribute</h3>
+               
+                <input type="text"  id="name" placeholder="Your name" class="box">
+                <input type="number" id="number" placeholder="Your number" class="box">
+                <input type="email" id="email" placeholder="Your email" class="box">
+                <input type="text" id="message"   rows="10" placeholder="Enter message" class="box">
+               
+                <a href="#" class="btn"> Continue to contribute <span class="fas fa-chevron-right"></span> </a>
+            </form>
+    
+        </div>
+    
+    </section>
+    <script src="script/.js"></script>
+</body>
+</html>
